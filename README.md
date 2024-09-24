@@ -12,9 +12,3 @@ A simple and elegant temperature converter that transforms values from **Fahrenh
 
 - **Angular**: For building the application.
 - **CSS**: For styling and enhancing the user interface.
-
-## Instructions for Use
-
-1. **Clone the repository**:  
-   ```bash
-   git clone <repository-url>
