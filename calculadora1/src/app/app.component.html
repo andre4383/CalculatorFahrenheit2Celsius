@@ -1,0 +1,10 @@
+<div>
+  <h1 id=Titulo>Conversor de Temperatura </h1>
+  <label>Temperatura em Fahrenheit: </label>
+    <input type = "number" [(ngModel)] = "TemperaturaF" placeholder = "Temperatura em Fahrenheit">
+</div>
+<button (click) = "calcular()" > Calcular </button>
+
+<div *ngIf="mensagem">
+  <h2>{{ mensagem }}</h2>
+</div>
